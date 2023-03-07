@@ -1,0 +1,22 @@
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    100% { opacity: 0; }
+}
+
+.cursor {
+    margin-left: 10px;
+    animation: blinker 1s infinite;
+    font-weight: 900;
+}
+
+.typing-effect {
+    /* margin: auto; */
+    width: fit-content;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
