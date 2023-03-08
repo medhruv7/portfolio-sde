@@ -1,0 +1,7 @@
+.contact-avatar {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: center;
+}
